@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>4AM Sports Live</title>
+    <meta
+      name="description"
+      content="A stylish sports blog for football news, transfers, fixtures, and results."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=5" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">
+          <span class="brand-mark">⚽</span>
+          <span>4AM Sports Live</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#news">News</a>
+          <a href="#transfers">Transfers</a>
+          <a href="#fixtures">Fixtures</a>
+          <a href="#results">Results</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Live sports coverage • Easy updates</p>
+            <h1>Keep your fans informed with beautiful sports updates every day.</h1>
+            <p class="hero-text">
+              Share football news, transfer buzz, upcoming fixtures, and match results from
+              one polished, mobile-friendly blog.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#news">Read latest news</a>
+              <a class="btn btn-secondary" href="#fixtures">View fixtures</a>
+            </div>
+          </div>
+          <div class="hero-card" id="hero-card">
+            <p class="card-label">Featured story</p>
+            <h3 id="hero-title">Loading latest update...</h3>
+            <p id="hero-summary">Please wait while the latest content loads.</p>
+            <div class="hero-meta" id="hero-meta"></div>
+          </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Site highlights">
+          <article class="stat-card">
+            <strong id="stat-news">0</strong>
+            <span>News posts</span>
+          </article>
+          <article class="stat-card">
+            <strong id="stat-transfers">0</strong>
+            <span>Transfer updates</span>
+          </article>
+          <article class="stat-card">
+            <strong id="stat-fixtures">0</strong>
+            <span>Upcoming fixtures</span>
+          </article>
+          <article class="stat-card">
+            <strong id="stat-results">0</strong>
+            <span>Latest results</span>
+          </article>
+        </section>
+
+        <section id="news" class="content-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Latest buzz</p>
+              <h2>Sports news</h2>
+            </div>
+            <a href="#home" class="text-link">Back to top</a>
+          </div>
+          <div id="news-list" class="card-grid"></div>
+        </section>
+
+        <section id="transfers" class="content-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Transfer window</p>
+              <h2>Transfer news</h2>
+            </div>
+            <a href="#home" class="text-link">Back to top</a>
+          </div>
+          <div id="transfers-list" class="card-grid"></div>
+        </section>
+
+        <section id="fixtures" class="content-section dual-grid">
+          <div>
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Coming up</p>
+                <h2>Match fixtures</h2>
+              </div>
+            </div>
+            <div id="fixtures-list" class="stack-list"></div>
+          </div>
+
+          <div>
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Final whistle</p>
+                <h2>Recent results</h2>
+              </div>
+            </div>
+            <div id="results-list" class="stack-list"></div>
+          </div>
+        </section>
+
+        <section id="about" class="content-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Who we are</p>
+              <h2>About Us</h2>
+            </div>
+            <a href="#home" class="text-link">Back to top</a>
+          </div>
+
+          <div class="info-grid">
+            <article class="info-card">
+              <h3>4AM Sports Live</h3>
+              <p>
+                4AM Sports Live shares daily football news, transfer updates, fixtures, results,
+                and match reports for supporters who want a fast, clean, mobile-friendly sports site.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>What we cover</h3>
+              <p>
+                We focus on breaking stories, club developments, transfer activity, and key match
+                moments, presented in a format that is easy to update and simple for readers to follow.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="content-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Get in touch</p>
+              <h2>Contact</h2>
+            </div>
+            <a href="#home" class="text-link">Back to top</a>
+          </div>
+
+          <div class="info-grid">
+            <article class="info-card">
+              <h3>Contact details</h3>
+              <p>Chairman & CEO: Anthony Junior Motsepe</p>
+              <p>Chief Director General:Global Sports Analyst & Editorial:Thabo Matue</p>
+              <!-- <p>Location: South Africa</p> -->
+            </article>
+
+            <article class="info-card">
+              <h3>Work with us</h3>
+              <p>
+                For story tips, match reports, partnership enquiries, or advertising requests, send a
+                message and we will respond as soon as possible.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section editor-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Simple editor</p>
+              <h2>Add content without touching code</h2>
+            </div>
+          </div>
+
+          <div class="admin-gate" id="admin-gate">
+            <p class="admin-hint">Admin access is required to edit the content.</p>
+            <form id="admin-login-form" class="admin-form">
+              <input id="admin-password" type="password" placeholder="Enter admin password" />
+              <button type="submit" class="btn btn-primary">Unlock editor</button>
+            </form>
+            <div id="admin-status" class="editor-status">Use the password to unlock the editor.</div>
+          </div>
+
+          <div id="admin-editor-content" hidden>
+            <div class="admin-actions">
+              <button type="button" class="btn btn-secondary" id="admin-logout">Log out</button>
+            </div>
+
+            <div class="editor-grid">
+              <form id="content-form" class="editor-form">
+                <label>
+                  Content type
+                  <select id="entry-type">
+                    <option value="news">News</option>
+                    <option value="transfers">Transfer</option>
+                    <option value="fixtures">Fixture</option>
+                    <option value="results">Result</option>
+                  </select>
+                </label>
+
+                <label>
+                  Title
+                  <input id="entry-title" type="text" placeholder="e.g. New signing announced" required />
+                </label>
+
+                <label>
+                  Summary
+                  <textarea id="entry-summary" rows="3" placeholder="Short description for your audience"></textarea>
+                </label>
+
+                <label>
+                  Date / time
+                  <input id="entry-date" type="text" placeholder="Today • 18:00" />
+                </label>
+
+                <label>
+                  Category / club / extra detail
+                  <input id="entry-extra" type="text" placeholder="Match Report, Transfer Rumour, or club name" />
+                </label>
+
+                <label>
+                  Home team
+                  <input id="entry-home" type="text" placeholder="Home team" />
+                </label>
+
+                <label>
+                  Away team
+                  <input id="entry-away" type="text" placeholder="Away team" />
+                </label>
+
+                <label>
+                  Competition
+                  <input id="entry-competition" type="text" placeholder="League / Cup" />
+                </label>
+
+                <label>
+                  Score
+                  <input id="entry-score" type="text" placeholder="2 - 1" />
+                </label>
+
+                <label>
+                  Fixture status
+                  <input id="entry-status" type="text" placeholder="Kick-off / Preview / Postponed" />
+                </label>
+
+                <label>
+                  Report image
+                  <input id="entry-image" type="file" accept="image/*" />
+                </label>
+
+                <div id="image-preview-wrap" class="image-preview-wrap" hidden>
+                  <img id="image-preview" class="image-preview" alt="Selected report image preview" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Add entry</button>
+              </form>
+
+              <div class="editor-side">
+                <p>
+                  Use the form above to add new content instantly. Save it in your browser,
+                  download the JSON file, and upload it to your Afrihost site whenever you are ready.
+                </p>
+                <div id="editor-status" class="editor-status">Ready to add fresh updates.</div>
+                <textarea id="json-editor" spellcheck="false" aria-label="JSON content editor"></textarea>
+                <div class="hero-actions">
+                  <button type="button" class="btn btn-secondary" id="save-data-btn">Save to browser</button>
+                  <button type="button" class="btn btn-secondary" id="download-data-btn">Download JSON</button>
+                  <button type="button" class="btn btn-secondary" id="reset-data-btn">Reset sample</button>
+                </div>
+                <label class="import-label">
+                  Import JSON file
+                  <input type="file" id="import-data" accept="application/json" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="content-section info-panel">
+          <div>
+            <p class="eyebrow">Easy editing</p>
+            <h2>Simple for any non-technical editor</h2>
+            <p>
+              This version gives you a built-in form for adding news, transfers, fixtures, and results.
+              You can also download the data as a JSON file for quick upload to Afrihost.
+            </p>
+          </div>
+          <div class="pill-list">
+            <span>Upload to Afrihost as a static website</span>
+            <span>Change text in one place</span>
+            <span>No coding required</span>
+          </div>
+        </section> -->
+      </main>
+    </div>
+
+    <script src="script.js?v=6"></script>
+  </body>
+</html>

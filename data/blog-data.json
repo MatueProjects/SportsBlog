@@ -1,0 +1,95 @@
+{
+  "site": {
+    "title": "4AM Sports Live",
+    "tagline": "Exciting sports news and updates from around the world."
+  },
+  "news": [
+    {
+      "title": "Orlando Pirates and Golden Arrows win the first leg of the MTN8 Semi-Finals",
+      "category": "Match Report",
+      "date": "Weekend ",
+      "summary": "Second leg coming this weekend.",
+      "featured": true
+    },
+    {
+      "title": "Star striker returns from injury",
+      "category": "Injury News",
+      "date": "Yesterday",
+      "summary": "The club's top scorer is back in training ahead of the next league fixture.",
+      "featured": false
+    },
+    {
+      "title": "Young midfielder earns national call-up",
+      "category": "Team News",
+      "date": "2 days ago",
+      "summary": "The rising talent has been named in the national squad for the upcoming qualifiers.",
+      "featured": false
+    }
+  ],
+  "transfers": [
+    {
+      "title": "Alvarex boed by Atlet fans whilst Arsenal remain hopeful",
+      "club": "Transfer Rumour",
+      "date": "Today",
+      "summary": "The 26-year-old is expected to complete a switch to a top-flight side this transfer window."
+    },
+    {
+      "title": "Experienced defender signs new contract",
+      "club": "Contract News",
+      "date": "Yesterday",
+      "summary": "The captain will stay with the club until the end of the current season."
+    },
+    {
+      "title": "Winger linked with European giants",
+      "club": "Transfer Rumour",
+      "date": "2 days ago",
+      "summary": "Interest is growing from clubs in the Champions League race."
+    }
+  ],
+  "fixtures": [
+    {
+      "date": "Saturday • 13:30",
+      "home": "Liverpool",
+      "away": "Nottim Forest",
+      "competition": "Premier League",
+      "status": "Kick-off"
+    },
+    {
+      "date": "Saturday • 18:30",
+      "home": "Tottenham Hotspur",
+      "away": "Newcastle United",
+      "competition": "Premier League",
+      "status": "Preview"
+    },
+    {
+      "date": "Monday • 21:00",
+      "home": "Arsenal",
+      "away": "Aston Villa",
+      "competition": "Premier League",
+      "status": "Fixture"
+    }
+  ],
+  "results": [
+    {
+      "date": "Last night",
+      "home": "Man City 2",
+      "away": "1 Bournemouth ",
+      "score": "2 - 1",
+      "competition": "Premier League"
+    },
+    {
+      "date": "Friday",
+      "home": "Arsenal 3",
+      "away": "0 Coventry City",
+      "score": "3 - 0",
+      "competition": "Premier League"
+    },
+    {
+      "date": "Saturday",
+      "home": "Hull City 2",
+      "away": "Manchested United 0",
+      "score": "2- 0",
+      "competition": "Premier League"
+    }
+  ]
+}
