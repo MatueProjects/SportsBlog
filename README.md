@@ -4,7 +4,15 @@ A modern, responsive sports blog built as a static website so it is easy to host
 
 ## How to update content
 
-Open the file [data/blog-data.json](data/blog-data.json) and edit the arrays for:
+Open the site and click **Admin** (top right) to sign in. The admin studio opens with separate News, Transfers, Fixtures, Results, Site and Publish tabs. From there you can:
+
+- add new news, transfer, fixture, and result items
+- edit or delete existing items without touching the JSON by hand
+- attach match images from your computer
+- keep a draft saved in the browser while you work
+- download the updated JSON when you are ready to publish
+
+If you prefer editing the data file directly, open [data/blog-data.json](data/blog-data.json) and edit the arrays for:
 
 - `news` for sports news stories
 - `transfers` for transfer updates
@@ -32,7 +40,7 @@ Each item can also include an optional `image` field. The built-in editor can at
 4. Bump the query version in `index.html` when you deploy JS changes:
 
 ```html
-<script src="script.js?v=6"></script>
+<script src="script.js?v=9"></script>
 ```
 
 5. Visit your domain to see the site.
@@ -42,6 +50,8 @@ Each item can also include an optional `image` field. The built-in editor can at
 This site does not upload images directly to Afrihost from the browser.
 Instead, the editor converts the selected image into data stored inside the JSON file.
 That means you must export the updated JSON and upload it with your site content.
+
+The editor also keeps a draft in your browser so you do not lose work while switching between entries.
 
 ### Why visitors can see old content
 

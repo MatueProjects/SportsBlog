@@ -72,23 +72,23 @@
   "results": [
     {
       "date": "Last night",
-      "home": "Man City 2",
-      "away": "1 Bournemouth ",
+      "home": "Man City",
+      "away": "Bournemouth",
       "score": "2 - 1",
       "competition": "Premier League"
     },
     {
       "date": "Friday",
-      "home": "Arsenal 3",
-      "away": "0 Coventry City",
+      "home": "Arsenal",
+      "away": "Coventry City",
       "score": "3 - 0",
       "competition": "Premier League"
     },
     {
       "date": "Saturday",
-      "home": "Hull City 2",
-      "away": "Manchested United 0",
-      "score": "2- 0",
+      "home": "Hull City",
+      "away": "Manchester United",
+      "score": "2 - 0",
       "competition": "Premier League"
     }
   ]
